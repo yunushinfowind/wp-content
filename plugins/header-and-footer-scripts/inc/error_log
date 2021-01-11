@@ -1,8 +1,0 @@
-[09-Sep-2020 23:16:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function esc_html_e() in /home/lotg/public_html/wp-content/plugins/header-and-footer-scripts/inc/meta.php:13
-Stack trace:
-#0 {main}
-  thrown in /home/lotg/public_html/wp-content/plugins/header-and-footer-scripts/inc/meta.php on line 13
-[10-Sep-2020 10:10:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function esc_html_e() in /home/lotg/public_html/wp-content/plugins/header-and-footer-scripts/inc/options.php:12
-Stack trace:
-#0 {main}
-  thrown in /home/lotg/public_html/wp-content/plugins/header-and-footer-scripts/inc/options.php on line 12
