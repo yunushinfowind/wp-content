@@ -1,0 +1,301 @@
+/*
+Media Queries
+---------------------------------------------------------------------------------------------------- */
+
+/*
+Responsive Menu
+---------------------------------------------------------------------------------------------------- */
+
+.responsive-menu-icon {
+    background: #044e6c none repeat scroll 0 0;
+    border-bottom: medium none;
+    border-radius: 9px;
+    clear: both;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+    float: right;
+    font-size: 27px;
+    font-weight: 700;
+    margin: 6px auto;
+    padding: 0 13px;
+    position: relative;
+}
+
+.responsive-menu-icon:hover {
+    background: #065f83;
+}
+
+.responsive-menu-icon::after {
+    color: #fff;
+    content: "";
+    display: inline-block;
+    float: right;
+    font: 400 42px/1 dashicons;
+    margin: 0 auto;
+    padding-left: 7px;
+    top: 0;
+}
+
+.menualign {
+    vertical-align: top
+}
+
+@media only screen and (max-width: 960px) {
+
+    .nav-primary .genesis-nav-menu a {
+        color: #fff;
+    }
+
+	.site-header .widget-area {
+		width: 75%;
+	}
+
+	.full-width-content .content {
+		padding: 0;
+	}
+
+	.full-width-content img.pull-left {
+		margin-left: 0;
+	}
+
+	.full-width-content img.pull-right {
+		margin-right: 0;
+	}
+
+	.five-sixths,
+	.four-sixths,
+	.one-fourth,
+	.one-half,
+	.one-sixth,
+	.one-third,
+	.pricing-table .one-third,
+	.three-fourths,
+	.three-sixths,
+	.two-fourths,
+	.two-sixths,
+	.two-thirds {
+		margin: 0;
+		width: 100%;
+	}
+
+    .responsive-menu li a {
+        color: #FFF;
+        font-size: 20px
+    }
+    .responsive-menu {
+        border-bottom-right-radius: 6px;
+        border-bottom-left-radius: 6px;
+    }
+    .genesis-nav-menu.responsive-menu,
+    .genesis-nav-menu.responsive-menu>.menu-item>.sub-menu {
+        display: none
+    }
+    .genesis-nav-menu.responsive-menu .menu-item,
+    .responsive-menu-icon {
+        display: block
+    }
+    .genesis-nav-menu.responsive-menu .menu-item-has-children {
+        position: relative;
+        cursor: pointer
+    }
+    .genesis-nav-menu.responsive-menu .menu-item-has-children > a {
+        margin-right: 0px
+    }
+    .nav-primary .genesis-nav-menu .sub-menu {
+        padding: 0px;
+        background: transparent;
+    }
+    .genesis-nav-menu.responsive-menu > .menu-item-has-children::before {
+        background-color: #fff;
+        border-bottom: 1px solid #999;
+        border-left: 1px solid #eee;
+        content: "";
+        float: right;
+        font: 400 16px/1 dashicons;
+        height: 100%;
+        max-height: 56px;
+        padding: 19px 20px 0; 
+        position: absolute;
+        right: 0;
+        text-align: right;
+        z-index: 9999;
+    }
+    .nav-primary .genesis-nav-menu.responsive-menu > .menu-item-has-children::before {
+        color: #333;
+        font-size: 20px
+    }
+    .genesis-nav-menu.responsive-menu .menu-open.menu-item-has-children:before {
+        content: "\f460"
+    }
+    .nav-primary .genesis-nav-menu .current-menu-item > a,
+    .nav-primary .genesis-nav-menu .current-page-ancestor > a,
+    .nav-primary .genesis-nav-menu .current-page-parent > a,
+    .nav-primary .genesis-nav-menu .current_page_parent > a,
+    .nav-primary .genesis-nav-menu .current_page_ancestor > a,
+    .genesis-nav-menu > li.menu-item:hover > a {
+        text-decoration: none;
+        color: #fff;
+    }
+    .nav-primary .genesis-nav-menu .menu-item:hover  {
+        background-color: transparent;
+    }
+    .nav-primary .genesis-nav-menu .sub-menu a:hover {
+    }
+    .genesis-nav-menu.responsive-menu {
+        margin: 0px auto;
+        padding: 0px 0px 12px;
+    }
+    .genesis-nav-menu.responsive-menu .sub-menu {
+        border: none;
+        left: auto;
+        opacity: 1;
+        position: relative;
+        -moz-transition: opacity .4s ease-in-out;
+        -ms-transition: opacity .4s ease-in-out;
+        -o-transition: opacity .4s ease-in-out;
+        -webkit-transition: opacity .4s ease-in-out;
+        transition: opacity .4s ease-in-out;
+        width: 100%;
+        z-index: 99
+    }
+    .genesis-nav-menu.responsive-menu .sub-menu .sub-menu {
+        margin: 0
+    }
+    .genesis-nav-menu.responsive-menu .sub-menu li a {
+        background-color: transparent;
+        color: #fff;
+        font-size: 16px;
+        padding-left: 40px;
+        position: relative;
+        text-transform: none;
+        width: 100%;
+        border: none;
+    }
+    .genesis-nav-menu.responsive-menu .sub-menu li a:hover {
+        position: relative;
+        text-transform: none;
+        width: 100%
+    }
+    .sub-menu li:first-child:before {
+        border-bottom: none;
+        border-left: none;
+        border-right: none;
+        clear: both;
+        content: "";
+        display: block;
+        height: 0;
+        left: 0;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        top: 0;
+        width: 0
+    }
+
+    .footer-widgets .widget-area {
+        margin-bottom: 30px;
+        width: 50%;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    h4 {
+        font-size: 24px;
+    }
+
+    h5 {
+        font-size: 16px;
+    }
+
+    h6 {
+        font-size: 15px;
+    }
+
+	.wrap {
+		max-width: none;
+		width: 100%;
+		padding: 0 5%;
+	}
+
+	.genesis-nav-menu.responsive-menu {
+		display: none;
+	}
+
+    .subpage-container .three-fourths {
+        float: none;
+        width: 100%;
+    }
+    
+    .subpage-container .sidebar {
+        float: none;
+        margin: 0 auto;
+        max-width: 320px;
+        width: 100%;
+    }
+
+    .credits {
+        margin-top: 30px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .copyright {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-widgets .widget-area {
+        margin-bottom: 30px;
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+
+    h1 {
+        font-size: 38px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    h3 {
+        font-size: 23px;
+    }
+
+    h4 {
+        font-size: 22px;
+    }
+
+    h5 {
+        font-size: 15px;
+    }
+
+    h6 {
+        font-size: 14px;
+    }
+
+    .format-pipe {
+        display: block;
+        height: 15px;
+        text-indent: -9999px;
+    }
+
+}

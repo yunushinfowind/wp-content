@@ -1,0 +1,172 @@
+/* # Thrive Framework
+Theme Name: Lessons On The Go
+Theme URI: http://thrivenetmarketing.com
+Description: Thrive Framework is a minimally-styled, feature rich, theme framework built specifically to power thrive projects.
+Author: Thrivenetmarketing.com
+Author URI: http://thrivenetmarketing.com/
+Version: 2.3.0
+Tags: black, red, white, one-column, two-columns, three-columns, left-sidebar, right-sidebar, responsive-layout, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, featured-images, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+Template: genesis
+Template Version: 2.3.0
+License: GPL-2.0+
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: Thrive Framework
+*/
+.ptserif {
+	font-family: 'PT Serif', serif;
+}
+.lessons-reimagined .fl-photo-content img {
+	max-height: 48px;
+	width: auto;
+}
+.border-animation > div > div,
+.dashed-border-animation > div > div {
+	position: relative;
+	z-index: 9
+}
+body .gform_wrapper .gf_progressbar {
+	width: 100% !important
+}
+.subpage-container {
+	position: relative;
+}
+ul.share-buttons{
+  	list-style: none;
+  	padding: 0;
+    z-index: 2;
+}
+ul.share-buttons.fixed {
+	position: fixed;
+}
+ul.share-buttons li{
+	line-height: 1
+}
+ul.share-buttons .sr-only{
+	position: absolute;
+	clip: rect(1px 1px 1px 1px);
+	clip: rect(1px, 1px, 1px, 1px);
+	padding: 0;
+	border: 0;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+ul.share-buttons img{
+	width: 32px;
+}
+#homepage-banner > div,
+#homepage-banner > div > div {
+	position: relative;
+}
+#homepage-banner > div::before {
+	content: '';
+	display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255,255,255,1);
+	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,0.6) 40%, rgba(255,255,255,0.41) 60%, rgba(255,255,255,0.01) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(40%, rgba(255,255,255,0.6)), color-stop(60%, rgba(255,255,255,0.41)), color-stop(100%, rgba(255,255,255,0.01)));
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,0.6) 40%, rgba(255,255,255,0.41) 60%, rgba(255,255,255,0.01) 100%);
+	background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,0.6) 40%, rgba(255,255,255,0.41) 60%, rgba(255,255,255,0.01) 100%);
+	background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,0.6) 40%, rgba(255,255,255,0.41) 60%, rgba(255,255,255,0.01) 100%);
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,0.6) 40%, rgba(255,255,255,0.41) 60%, rgba(255,255,255,0.01) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 );
+}
+body .site-container .gform_wrapper select {
+	font-size: 16px;
+	padding: 15px;
+	color: #9c9c9c;
+}
+body .site-container .gform_wrapper .top_label div.ginput_container {
+	margin-top: 0 !important
+}
+.site-container .gform_wrapper .field_sublabel_hidden_label .ginput_complex.ginput_container input[type=text] {
+	margin-bottom: 0;
+}
+.white-bg .fl-accordion-button,
+.white-bg .fl-accordion-content {
+	background-color: #FFFFFF
+}
+#shiftnav-toggle-main-button {
+	transition: all 300ms ease-in-out;
+	-webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	-ms-transition: all 300ms ease-in-out;
+}
+body.shiftnav-open #shiftnav-toggle-main-button {
+	visibility: hidden;
+}
+.shiftnav .fl-builder-content #btn-header-teach .fl-button-right {
+    text-align: left !important;
+    padding-left: 	20px;
+}
+.shiftnav .fl-builder-content #btn-header-teach .fl-button {
+	border-width: 3px;
+	margin-bottom: 	10px
+}
+@media screen and (min-width: 641px) {
+	body .site-container .gform_wrapper li.gfield.gf_left_half {
+		padding-right: 8px;
+	}
+	body .site-container .gform_wrapper li.gfield.gf_right_half {
+	    padding-right: 0;
+	    padding-left: 8px;
+	}
+}
+@media screen and (min-width: 768px) {
+	ul.share-buttons{
+    	position: absolute;
+    	top: -140px;
+    }
+}
+@media screen and (min-width: 1200px) {
+	#btn-header-teach a.fl-button, .fl-node-5b6c5ac6a8bd9.fl-module-heading .fl-heading,
+	.fl-node-5b6c5a2aa73be.fl-module-heading .fl-heading {
+		white-space: nowrap;
+	}
+}
+@media screen and (max-width: 992px) {
+	.lessons-banner > div {
+		position: relative;
+	}
+	.lessons-banner > div::after {
+		background-color: rgba(255,255,255,0.5);
+
+		content: '';
+	    display: block;
+	    position: absolute;
+	    top: 0;
+	    right: 0;
+	    bottom: 0;
+	    left: 0;
+	    z-index: 0;
+	}
+	.lessons-banner > div > div {
+		z-index: 1;
+		position: relative;
+	}
+}
+@media screen and (max-width: 767px) {
+	.lotg-post-title .feat-img {
+		height: 300px
+	}
+	ul.share-buttons {
+		text-align: center;
+		position: fixed;
+		bottom: 0;
+		right: 0;
+		left: 0;
+		padding-top: 10px;
+		background-color: #FFFFFF;
+		z-index: 999
+	}
+	ul.share-buttons > li {
+    	display: inline-block;
+    }
+    body.single #site-footer {
+    	padding-bottom: 50px;
+    }
+}
