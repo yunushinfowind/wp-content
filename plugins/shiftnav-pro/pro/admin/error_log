@@ -1,0 +1,5 @@
+[04-Jan-2021 02:54:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/lotg/public_html/wp-content/plugins/shiftnav-pro/pro/admin/settings.pro.php:13
+Stack trace:
+#0 /home/lotg/public_html/wp-content/plugins/shiftnav-pro/pro/admin/admin.pro.php(3): require_once()
+#1 {main}
+  thrown in /home/lotg/public_html/wp-content/plugins/shiftnav-pro/pro/admin/settings.pro.php on line 13

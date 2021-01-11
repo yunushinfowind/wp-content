@@ -1,0 +1,89 @@
+/* CUSTOM CSS */
+/**************/
+
+/* Buttons */
+
+.outlined {
+	font-weight: 900;
+	font-family: 'Open Sans', sans-serif;
+	color: inherit;
+}
+
+.outlined.blue {
+	color: #42acd1;
+}
+
+.outlined.blue:hover {
+	background-color: #88ca45;
+}
+
+.outlined.green {
+	color: #88ca45;
+}
+
+.outlined.green:hover {
+	background-color: #42acd1;
+}
+
+.button.outlined {
+	background-color: white;
+	border: 2px solid;
+}
+
+.button.outlined:hover {
+	color: white;
+}
+
+/***********/
+
+#logo-bar {
+	font-weight: bold;
+	line-height: 1.2;
+	color: #626665;
+}
+
+#logo-bar .fl-rich-text p { margin-bottom: 0 }
+
+#logo-bar .fl-rich-text a.button {
+	margin: 5px;
+}
+
+#logo-bar .fl-rich-text a:not(.button) {
+	font-size: 30px;
+	color: #f47121;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 900;
+}
+
+#logo-bar .fl-rich-text a:not(.button):hover {
+	color: #42acd1
+}
+
+/* Navigation Bar */
+
+#navbar .fl-menu .menu, #navbar .fl-menu .menu > li {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.home #navbar .fl-menu {
+	border-bottom: 1px solid #7d7d7d
+}
+
+/* Media Queries */
+
+@media screen and (min-width: 1024px) {
+	#logo-bar {
+		font-size: 18px;
+	}
+
+	#logo-bar .fl-rich-text a:not(.button) { font-size: 32px; }
+}
+
+@media screen and (min-width: 1280px) {
+	#logo-bar {
+		font-size: 20px;
+	}
+
+	#logo-bar .fl-rich-text a:not(.button) { font-size: 35px; }
+}

@@ -1,0 +1,48 @@
+[02-Jan-2019 00:15:17 UTC] PHP Fatal error:  Call to undefined function remove_action() in /home/lotg/public_html/wp-content/themes/lessonsonthego/404.php on line 3
+[02-Jan-2019 00:15:17 UTC] PHP Fatal error:  Call to undefined function do_action() in /home/lotg/public_html/wp-content/themes/lessonsonthego/header.php on line 14
+[02-Jan-2019 00:15:18 UTC] PHP Fatal error:  Call to undefined function remove_action() in /home/lotg/public_html/wp-content/themes/lessonsonthego/archive.php on line 3
+[02-Jan-2019 00:15:18 UTC] PHP Fatal error:  Call to undefined function remove_action() in /home/lotg/public_html/wp-content/themes/lessonsonthego/index.php on line 6
+[02-Jan-2019 00:15:18 UTC] PHP Fatal error:  Call to undefined function remove_action() in /home/lotg/public_html/wp-content/themes/lessonsonthego/404.php on line 3
+[02-Jan-2019 00:15:18 UTC] PHP Fatal error:  Call to undefined function do_action() in /home/lotg/public_html/wp-content/themes/lessonsonthego/header.php on line 14
+[02-Jan-2019 00:15:18 UTC] PHP Fatal error:  Call to undefined function remove_action() in /home/lotg/public_html/wp-content/themes/lessonsonthego/archive.php on line 3
+[02-Jan-2019 00:15:18 UTC] PHP Fatal error:  Call to undefined function remove_action() in /home/lotg/public_html/wp-content/themes/lessonsonthego/index.php on line 6
+[26-Feb-2019 03:08:16 UTC] PHP Fatal error:  Call to undefined function remove_action() in /home/lotg/public_html/wp-content/themes/lessonsonthego/404.php on line 3
+[26-Feb-2019 03:08:16 UTC] PHP Fatal error:  Call to undefined function remove_action() in /home/lotg/public_html/wp-content/themes/lessonsonthego/archive.php on line 3
+[26-Feb-2019 03:08:16 UTC] PHP Fatal error:  Call to undefined function remove_action() in /home/lotg/public_html/wp-content/themes/lessonsonthego/index.php on line 6
+[26-Feb-2019 03:08:16 UTC] PHP Fatal error:  Call to undefined function do_action() in /home/lotg/public_html/wp-content/themes/lessonsonthego/header.php on line 14
+[26-Feb-2019 03:08:17 UTC] PHP Fatal error:  Call to undefined function remove_action() in /home/lotg/public_html/wp-content/themes/lessonsonthego/404.php on line 3
+[26-Feb-2019 03:08:17 UTC] PHP Fatal error:  Call to undefined function remove_action() in /home/lotg/public_html/wp-content/themes/lessonsonthego/archive.php on line 3
+[26-Feb-2019 03:08:17 UTC] PHP Fatal error:  Call to undefined function do_action() in /home/lotg/public_html/wp-content/themes/lessonsonthego/header.php on line 14
+[26-Feb-2019 03:08:17 UTC] PHP Fatal error:  Call to undefined function remove_action() in /home/lotg/public_html/wp-content/themes/lessonsonthego/index.php on line 6
+[15-Nov-2019 20:02:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function remove_action() in /home/lotg/public_html/wp-content/themes/lessonsonthego/404.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/lotg/public_html/wp-content/themes/lessonsonthego/404.php on line 3
+[17-Nov-2019 15:41:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function remove_action() in /home/lotg/public_html/wp-content/themes/lessonsonthego/404.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/lotg/public_html/wp-content/themes/lessonsonthego/404.php on line 3
+[12-Dec-2019 18:53:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function remove_action() in /home/lotg/public_html/wp-content/themes/lessonsonthego/404.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/lotg/public_html/wp-content/themes/lessonsonthego/404.php on line 3
+[14-Dec-2019 19:06:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function remove_action() in /home/lotg/public_html/wp-content/themes/lessonsonthego/404.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/lotg/public_html/wp-content/themes/lessonsonthego/404.php on line 3
+[11-Jan-2020 16:19:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function remove_action() in /home/lotg/public_html/wp-content/themes/lessonsonthego/404.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/lotg/public_html/wp-content/themes/lessonsonthego/404.php on line 3
+[14-Jan-2020 16:56:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function remove_action() in /home/lotg/public_html/wp-content/themes/lessonsonthego/404.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/lotg/public_html/wp-content/themes/lessonsonthego/404.php on line 3
+[16-Apr-2020 20:30:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function remove_action() in /home/lotg/public_html/wp-content/themes/lessonsonthego/404.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/lotg/public_html/wp-content/themes/lessonsonthego/404.php on line 3
+[24-Apr-2020 15:30:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function remove_action() in /home/lotg/public_html/wp-content/themes/lessonsonthego/404.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/lotg/public_html/wp-content/themes/lessonsonthego/404.php on line 3

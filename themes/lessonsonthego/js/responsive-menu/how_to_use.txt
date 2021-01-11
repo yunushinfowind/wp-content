@@ -1,0 +1,12 @@
+// How to Use:
+
+Step 1: Include the script in functions.php
+-- Make sure the path is correct
+
+wp_enqueue_script( 'responsive-menu-js', get_bloginfo( 'stylesheet_directory' ) . '/responsive-menu/responsive-menu.js', array( 'jquery' ), '1.0.0' );
+
+
+Step 2: Decide at what size the menu should open. This is controlled by a line in each file. 
+
+Line 12 responsive-menu.js  : if(window.innerWidth > 960) {
+mediaquerries.css : @media only screen and (max-width:960px) {
